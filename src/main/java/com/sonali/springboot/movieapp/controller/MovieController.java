@@ -29,7 +29,7 @@ public class MovieController {
 	@Autowired
 	MovieRepo movieRepo;
 
-	//API for Saving a movie into db ==> CREATE
+	//API for Saving a movie into db ==> CREATE/SAVE
 	
 	@PostMapping("/create")
 	public Movie saveMovie(@RequestBody Movie movie) {
